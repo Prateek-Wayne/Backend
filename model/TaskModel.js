@@ -22,17 +22,4 @@ const TaskSchema= new mongoose.Schema({
 },
 { timestamps: true }
 );
-const Task=mongoose.model('Task',TaskSchema);
-export const task=async()=>{
-    try {
-        const newTask=await Task.create({
-            taskname:'Watch GOT',
-            discription:'Watch three episode today',
-            user:'65197e112a7b477bf0d02934',
-            deadline:new Date('2023-12-31')
-        });
-        console.log(newTask);
-    } catch (error) {
-        console.log(error);
-    }
-}
+export const Task=mongoose.model('Task',TaskSchema);
