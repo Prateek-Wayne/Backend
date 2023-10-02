@@ -6,7 +6,12 @@
   "repository": "https://github.com/Prateek-Wayne/Backend.git",
   "author": "prateek-wayne <lordprateekverma@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node inde.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "express": "^4.18.2",
     "mongoose": "^7.5.3"
   }

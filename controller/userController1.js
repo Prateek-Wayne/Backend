@@ -1,8 +1,9 @@
-import { User } from "../model/UserModel";
+import { User } from "../model/userModel.js";
 
 export const register = async (req, res) => {
     try {
-        const existingUser = await User.findOne(req.email);
+        const { username, password, email } = req.body;
+        const existingUser = await User.findOne({ email });
         if (existingUser) {
             return res.status(401).json({
                 "success": false,
@@ -10,15 +11,16 @@ export const register = async (req, res) => {
             });
         }
         const newUser = await User.create({
-            username: req.body.username,
-            password: req.body.password,
-            email: req.body.email,
+            username,
+            password,
+            email
         })
         return res.status(201).json({
             "success": true,
             "message": newUser
         })
     } catch (error) {
+        console.log(error);
         return res.status(401).json({
             "success": true,
             "message": error.message
@@ -27,17 +29,24 @@ export const register = async (req, res) => {
 }
 export const login = async (req, res) => {
     try {
-        const exisitingUser = await User.findOne(req.body.username);
+        const email=req.body.email;
+        const exisitingUser = await User.findOne({email});
         if (!exisitingUser) {
             return res.status(401).json({
                 "success": false,
                 "message": "user not found"
             });
         }
-        return res.status(201).json({
-            "success": true,
-            "message": exisitingUser
-        })
+        if (req.body.password === exisitingUser.password) {
+            return res.status(201).cookie("userId",exisitingUser._id).json({
+                "success": true,
+                "message": exisitingUser
+            })
+        }
+        return res.status(401).json({
+            "success": false,
+            "message": "username or password is wrong"
+        });
     } catch (error) {
         return res.status(401).json({
             "success": false,
