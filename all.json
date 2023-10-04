@@ -2,10 +2,10 @@
     {
       "entityRef": {
         "kind": "api",
-        "name": "hello-world"
+        "name": "bye-world"
       },
       "scorePercent": 50,
-      "scoreLabel": "Yellow",
+      "scoreLabel": "Red",
       "scoringReviewDate": "2022-01-01T08:00:00Z",
       "scoreSuccess": "almost-failure",
       "areaScores": [
