@@ -70,6 +70,367 @@
         "scoreSuccess": "success"
       }
     ]
-  }
+  },
+  
+  {
+    "entityRef": {
+      "kind": "API",
+      "name": "Redis Database",
+      "owner" : "ABC"
+    },
+    "scorePercent": 60,
+    "scoreLabel": "Yellow",
+    "scoreSuccess": "almost-success",
+    "areaScores": [
+      {
+        "title": "Coverage",
+        "scorePercent": 30,
+        "scoreLabel": "47",
+        "scoreSuccess": "partial"
+      },
+      {
+        "title": "Mutation",
+        "scorePercent": 20,
+        "scoreLabel": "13",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Fortify",
+        "scorePercent": 0,
+        "scoreLabel": "Green",
+        "scoreSuccess": "partial"
+      },
+      {
+        "title": "Tech Debt",
+        "scorePercent": 26,
+        "scoreLabel": "26",
+        "scoreSuccess": "partial"
+      },
+      {
+        "title": "Secrets",
+        "scorePercent": 2,
+        "scoreLabel": "2",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Maintain",
+        "scorePercent": 90,
+        "scoreLabel": "90",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Cyclomatic",
+        "scorePercent": 33,
+        "scoreLabel": "33",
+        "scoreSuccess": "partial"
+      },
+      {
+        "title": "Coupling",
+        "scorePercent": 65,
+        "scoreLabel": "65",
+        "scoreSuccess": "almost-success"
+      },
+      {
+        "title": "Inheritance",
+        "scorePercent": 10,
+        "scoreLabel": "10",
+        "scoreSuccess": "almost-failure"
+      },
+      {
+        "title": "Source Lines",
+        "scorePercent": 40,
+        "scoreLabel": "40",
+        "scoreSuccess": "partial"
+      }
+    ]
+  },
+  {
+    "entityRef": {
+      "kind": "API",
+      "name": "Mongo DB",
+      "owner" : "ABC"
+    },
+    "scorePercent": 30,
+    "scoreLabel": "Red",
+    "scoreSuccess": "almost-failure",
+    "areaScores": [
+      {
+        "title": "Coverage",
+        "scorePercent": 68,
+        "scoreLabel": "68",
+        "scoreSuccess": "almost-success"
+      },
+      {
+        "title": "Mutation",
+        "scorePercent": 20,
+        "scoreLabel": "13",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Fortify",
+        "scorePercent": 0,
+        "scoreLabel": "Green",
+        "scoreSuccess": "partial"
+      },
+      {
+        "title": "Tech Debt",
+        "scorePercent": 26,
+        "scoreLabel": "26",
+        "scoreSuccess": "partial"
+      },
+      {
+        "title": "Secrets",
+        "scorePercent": 2,
+        "scoreLabel": "2",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Maintain",
+        "scorePercent": 90,
+        "scoreLabel": "90",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Cyclomatic",
+        "scorePercent": 33,
+        "scoreLabel": "33",
+        "scoreSuccess": "partial"
+      },
+      {
+        "title": "Coupling",
+        "scorePercent": 65,
+        "scoreLabel": "65",
+        "scoreSuccess": "almost-success"
+      },
+      {
+        "title": "Inheritance",
+        "scorePercent": 40,
+        "scoreLabel": "40",
+        "scoreSuccess": "partial"
+      },
+      {
+        "title": "Source Lines",
+        "scorePercent": 30,
+        "scoreLabel": "30",
+        "scoreSuccess": "almost-failure"
+      }
+    ]
+  },
+  {
+    "entityRef": {
+      "kind": "API",
+      "name": "CLoudflare",
+      "owner" : "ABC"
+    },
+    "scorePercent": 56,
+    "scoreLabel": "Green",
+    "scoreSuccess": "almost-success",
+    "areaScores": [
+      {
+        "title": "Coverage",
+        "scorePercent": 50,
+        "scoreLabel": "50",
+        "scoreSuccess": "partial"
+      },
+      {
+        "title": "Mutation",
+        "scorePercent": 90,
+        "scoreLabel": "90",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Fortify",
+        "scorePercent": 80,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Tech Debt",
+        "scorePercent": 76,
+        "scoreLabel": "76",
+        "scoreSuccess": "almost-success"
+      },
+      {
+        "title": "Secrets",
+        "scorePercent": 10,
+        "scoreLabel": "10",
+        "scoreSuccess": "failure"
+      },
+      {
+        "title": "Maintain",
+        "scorePercent": 0,
+        "scoreLabel": "0",
+        "scoreSuccess": "failure"
+      },
+      {
+        "title": "Cyclomatic",
+        "scorePercent": 23,
+        "scoreLabel": "23",
+        "scoreSuccess": "failure"
+      },
+      {
+        "title": "Coupling",
+        "scorePercent": 35,
+        "scoreLabel": "35",
+        "scoreSuccess": "almost-failure"
+      },
+      {
+        "title": "Inheritance",
+        "scorePercent": 80,
+        "scoreLabel": "80",
+        "scoreSuccess": "almost-failure"
+      },
+      {
+        "title": "Source Lines",
+        "scorePercent": 30,
+        "scoreLabel": "30",
+        "scoreSuccess": "almost-failure"
+      }
+    ]
+  },
+  {
+    "entityRef": {
+      "kind": "API",
+      "name": "FireBase",
+      "owner" : "google"
+    },
+    "scorePercent": 96,
+    "scoreLabel": "Green",
+    "scoreSuccess": "almost-success",
+    "areaScores": [
+      {
+        "title": "Coverage",
+        "scorePercent": 90,
+        "scoreLabel": "90",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Mutation",
+        "scorePercent": 90,
+        "scoreLabel": "90",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Fortify",
+        "scorePercent": 100,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Tech Debt",
+        "scorePercent": 96,
+        "scoreLabel": "96",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Secrets",
+        "scorePercent": 90,
+        "scoreLabel": "90",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Maintain",
+        "scorePercent": 85,
+        "scoreLabel": "85",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Cyclomatic",
+        "scorePercent": 93,
+        "scoreLabel": "93",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Coupling",
+        "scorePercent": 95,
+        "scoreLabel": "95",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Inheritance",
+        "scorePercent": 80,
+        "scoreLabel": "80",
+        "scoreSuccess": "almost-failure"
+      },
+      {
+        "title": "Source Lines",
+        "scorePercent": 30,
+        "scoreLabel": "30",
+        "scoreSuccess": "almost-failure"
+      }
+    ]
+  },
+  {
+    "entityRef": {
+      "kind": "API",
+      "name": "AWS",
+      "owner" : "Amazon"
+    },
+    "scorePercent": 86,
+    "scoreLabel": "Green",
+    "scoreSuccess": "almost-success",
+    "areaScores": [
+      {
+        "title": "Coverage",
+        "scorePercent": 80,
+        "scoreLabel": "80",
+        "scoreSuccess": "almost-success"
+      },
+      {
+        "title": "Mutation",
+        "scorePercent": 70,
+        "scoreLabel": "70",
+        "scoreSuccess": "almost-succces"
+      },
+      {
+        "title": "Fortify",
+        "scorePercent": 90,
+        "scoreLabel": "Green",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Tech Debt",
+        "scorePercent": 76,
+        "scoreLabel": "76",
+        "scoreSuccess": "almost-success"
+      },
+      {
+        "title": "Secrets",
+        "scorePercent": 90,
+        "scoreLabel": "90",
+        "scoreSuccess": "success"
+      },
+      {
+        "title": "Maintain",
+        "scorePercent": 0,
+        "scoreLabel": "0",
+        "scoreSuccess": "failure"
+      },
+      {
+        "title": "Cyclomatic",
+        "scorePercent": 23,
+        "scoreLabel": "23",
+        "scoreSuccess": "failure"
+      },
+      {
+        "title": "Coupling",
+        "scorePercent": 35,
+        "scoreLabel": "35",
+        "scoreSuccess": "almost-failure"
+      },
+      {
+        "title": "Inheritance",
+        "scorePercent": 80,
+        "scoreLabel": "80",
+        "scoreSuccess": "almost-failure"
+      },
+      {
+        "title": "Source Lines",
+        "scorePercent": 30,
+        "scoreLabel": "30",
+        "scoreSuccess": "almost-failure"
+      }
+    ]
+  },
 ]
 
