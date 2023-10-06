@@ -11,6 +11,7 @@ mongoose.connect(uri).then(() => {
     console.log("DB connected");
 }).catch((error) => {
     console.log(error);
+    
 });
 
 const app = express();
