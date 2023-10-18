@@ -2,7 +2,7 @@
     {
       "entityRef": {
         "kind": "api",
-        "name": "spartan-system-test"
+        "name": "local-test-system"
       },
       "scorePercent": 50,
       "scoreLabel": "Yellow",
